@@ -8,16 +8,24 @@
 .contact__options {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    margin-top: 1rem;
 }
 
 .contact__option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     border: 1px solid transparent;
     transition: var(--transition);
+
 }
 
 .contact__option:hover {
@@ -52,6 +60,20 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+}
+
+/*================= MEDIA QUERIES (MEDIUM email responsive) ==================== */
+@media screen and (max-width:1540px) {
+    .container.contact__container {
+        grid-template-columns: 35% 58%;
+    }
+}
+/*================= MEDIA QUERIES (MEDIUM email responsive) ==================== */
+@media screen and (max-width:1330px) {
+    .container.contact__container {
+        grid-template-columns: 45% 55%;
+        gap: 5rem;
+    }
 }
 
 /*================= MEDIA QUERIES (MEDIUM DIVICES) ==================== */
