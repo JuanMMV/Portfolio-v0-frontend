@@ -1,0 +1,56 @@
+.modal__container {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.modal__exit {
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    right: 0;
+    margin: 2rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal__container div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    max-width: 60%;
+    max-height: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.modal__image {
+    object-fit: contain;
+}
+
+.modal__iframe {
+    width: 80rem;
+    height: 45rem; 
+}
+
+/*================= MEDIA QUERIES (MEDIUM DIVICES) ==================== */
+@media screen and (max-width:1024px) {
+    .modal__iframe {
+        width: 53.4rem;
+        height: 40rem; 
+    }
+}
+
+/*================= MEDIA QUERIES (SMALL DIVICES) ==================== */
+@media screen and (max-width:600px) {
+    .modal__iframe {
+        width: auto;
+        height: 40rem; 
+    }
+}
