@@ -2,8 +2,6 @@ import IMG1 from '../assets/projectsPictures/AppMaestros.PNG'
 import IMG2 from '../assets/projectsPictures/post.PNG'
 import IMG3 from '../assets/projectsPictures/proyecto-pdf.png'
 import IMG4 from '../assets/projectsPictures/react-rtk-crud.PNG'
-import IMG5 from '../assets/portfolio5.png'
-import IMG6 from '../assets/portfolio6.jpg'
 
 export const projects = [
 	{
@@ -62,7 +60,7 @@ export const projects = [
 		image: IMG3,
 		title: 'Generador PDF: documento de administracion de propiedad',
 		github: "https://github.com/JuanMMV/generador-pdf-adm-propiedad",
-		demo: "https://dribbble.com/Alien_pixels",
+		demo: "https://www.youtube.com/embed/8U3oIt61taE?feature=share",
 		technologies: [
 			{
 				technology:'Expo'
@@ -89,41 +87,5 @@ export const projects = [
 				technology:'TailwindCSS'
 			},
 		],
-	},
-	{
-		id:5,
-		image: IMG5,
-		title: 'titulo del proyecto',
-		github: "https://github.com",
-		demo: "https://dribbble.com/Alien_pixels",
-		technologies: [
-			{
-				technology:'ReactJS'
-			},
-			{
-				technology:'Redux Toolkit'
-			},
-			{
-				technology:'TailwindCSS'
-			},
-		],
-	},
-	{
-		id:6,
-		image: IMG6,
-		title: 'This is a portafolio item title',
-		github: "https://github.com",
-		demo: "https://dribbble.com/Alien_pixels",
-		technologies: [
-			{
-				technology:'ReactJS'
-			},
-			{
-				technology:'Redux Toolkit'
-			},
-			{
-				technology:'TailwindCSS'
-			},
-		],
-	},
+	},	
 ]

@@ -7,8 +7,8 @@ import { experienceBackend } from "../../helpers/experience/experienceBackend";
 const Experience = () => {
 	return (
 		<section id="experience">
-			<h5>What Skills I have</h5>
-			<h2>My Experience</h2>
+			<h5>Que Skills tengo</h5>
+			<h2>Mis Conocimientos</h2>
 
 			<div className="container experience__container">
 				

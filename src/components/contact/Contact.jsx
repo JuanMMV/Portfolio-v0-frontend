@@ -21,8 +21,8 @@ const Contact = () => {
 
   	return (
 		<section id='contact'>
-	  		<h5>Get In Touch</h5>
-	  		<h2>Contact Me</h2>
+	  		<h5>Ponte en contacto</h5>
+	  		<h2>Contactame</h2>
 
 	  		<div className="container contact__container">
 				<div className="contact__options">
@@ -30,16 +30,16 @@ const Contact = () => {
 						<MdOutlineEmail className='contact__option-icon' />
 						<h4>Email</h4>
 						<h5>juan.menares.developer@gmail.com</h5>
-						<a href="mailto:juan.menares.developer@gmail.com" target='_blank'>Send a message</a>
+						<a href="mailto:juan.menares.developer@gmail.com" target='_blank'>Envía un mensaje</a>
 					</article>
 				</div>
-			{/* END OF CONTACT OPCION */}
-			<form ref={ form } onSubmit={ sendEmail }>
-				<input type="text" name='name' placeholder='Your full name' required />
-				<input type="email" name='email' placeholder='Your email' required />
-				<textarea name="message" rows="7" placeholder='Your message' required></textarea>
-				<button type='submit' className='btn btn-primary'>Send Message</button>
-			</form>
+				{/* END OF CONTACT OPCION */}
+				<form ref={ form } onSubmit={ sendEmail }>
+					<input type="text" name='name' placeholder='Nombre' required />
+					<input type="email" name='email' placeholder='Email' required />
+					<textarea name="message" rows="7" placeholder='Mensaje' required></textarea>
+					<button type='submit' className='btn btn-primary'>Enviar mensaje</button>
+				</form>
 	  		</div>
 		</section>
   	)
